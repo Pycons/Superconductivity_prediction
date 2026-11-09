@@ -9,4 +9,6 @@ Both files have the same four columns:
 
 The file 'make_dataset.py' is used to
 
-The file 'plot dataset.py' is used to create some plots that are usefull to visualize the dataset and understand the characteristics of the material it contains. Precisely it plots the distribution of the critical temperatures, the element distribution and the most frequent elements. These plots are saved in the folder. 
+The file 'plot dataset.py' is used to create some plots that are usefull to visualize the dataset and understand the characteristics of the material it contains. Precisely it plots the distribution of the critical temperatures, the element distribution and the most frequent elements. These plots are saved in the folder 'data_plots' in the folder 'plots'. 
+
+The file 'make_model.py' is the core of the project, it defines the class TwoHeadNet, that inherits
